@@ -69,6 +69,9 @@ main{
 .btn-group{
     width: 33.333333%;
 }
+.btn-group,.open{
+    z-index: 1;
+}
 .btn{
     width: 100%;
     color: #858585;
@@ -77,6 +80,7 @@ main{
     border-radius: 0;
     padding: 7px 3px;
     font-size: .2rem;
+
 }
 
 #dropdownmenu2{
@@ -86,6 +90,11 @@ main{
 .caret{
     position: relative;
     left: .1rem;
+}
+.dropdown-menu{
+    min-width: 100%;
+    text-align: center;
+    z-index: 1;
 }
 
 /*一下是main
